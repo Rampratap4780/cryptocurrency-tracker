@@ -1,0 +1,73 @@
+.loader{
+  color: #fff;
+  font-size: 6vw;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.coin {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .coin-name {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .crimg {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .crpara {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .chart {
+    width: 100%;
+  }
+
+  .coin-info {
+    padding: 20px;
+    background-color: transparent; /* Set container background color to transparent */
+    border-radius: 10px;
+    color: white; /* Text color */
+    font-size: 18px; /* Increase font size */
+    width: 80%; /* Make container visible only 80% of the width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .styled-list {
+    list-style-type: none; /* Remove default list styling */
+    margin: 5px 0; /* Reduce space between lists */
+    padding: 5px; /* Reduce padding */
+    background-color: transparent; /* Set list background color to transparent */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(6, 6, 165); /* Add blue bottom line to each ul */
+  }
+  
+  .styled-list .title {
+    font-weight: bold;
+  }
+  
+  .styled-list .value {
+    font-style: italic;
+  }
+  
+  
